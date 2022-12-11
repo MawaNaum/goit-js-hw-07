@@ -42,7 +42,7 @@ function showModalWindow(evt) {
     evt.preventDefault();
     if (evt.target.nodeName !== "IMG") {
         return;
-    }
+    };
 
 // Замена значения атрибута src элемента <img> в модальном окне перед открытием. Используй готовую разметку модального окна с изображением из примеров библиотеки basicLightbox.
     
@@ -70,6 +70,6 @@ function showModalWindow(evt) {
     }
     instance.close();
   }
-}
+};
 
 console.log(galleryItems);
